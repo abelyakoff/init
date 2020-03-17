@@ -1,0 +1,13 @@
+#!/bin/sh
+
+IPADDRESS=$(ifconfig | awk '/broadcast/' | cut -d ' ' -f 6)
+echo ""
+echo "ETHERNET BROADCAST ADDRESS:"
+echo "---------------------------"
+echo $IPADDRESS
+echo ""
+SUBNET=$(echo $IPADDRESS | cut -d '.' -f 1-2)
+echo "ALL IP ADDRESSES IN $SUBNET SUBNET:"
+echo "--------------------------------------"
+arp -a | grep -w $SUBNET | cut -d '(' -f 2 | cut -d ')' -f 1
+echo ""

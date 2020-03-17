@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "USERS CONNECTED TO SYSTEM:"
+echo "--------------------------"
+w
+echo

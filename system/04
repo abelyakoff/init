@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "TIME SINCE LASY SYSTEM BOOT:"
+echo "----------------------------"
+uptime
+echo

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo
+echo "SIZE OF FOLDERS IN VAR:"
+du /var/ -h --max-depth=1
+echo

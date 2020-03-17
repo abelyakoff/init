@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "CURRENT SSH SERVICE STATE:"
+echo "--------------------------"
+sudo systemctl status ssh
+echo

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "NETWORK INTERFACES:"
+echo "-------------------"
+ifconfig | grep '\t' -v | cut -d ':' -f 1
+echo

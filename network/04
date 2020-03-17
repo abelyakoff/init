@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "DEFAULT GATEWAY IN ROUTING TABLE:"
+echo "---------------------------------"
+netstat -nr | grep default | sed -n '1p'
+echo

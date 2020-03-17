@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "QUERING GOOGLE DNS SERVER (8.8.8.8) ON SLASH16.ORG DOMAIN NAME:"
+echo "---------------------------------------------------------------"
+dig @8.8.8.8 +short slash16.org
+echo

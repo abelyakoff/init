@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "SSHD SERVICE PID:"
+echo "-----------------"
+cat /var/run/sshd.pid
+echo

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "SPACE USED AND LEFT:"
+echo "--------------------"
+df -h
+echo

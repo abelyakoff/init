@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "IDENTIFYING NETWORK DEVICES BETWEEN COMPUTER AND SLASH16.ORG DOMAIN:"
+echo "--------------------------------------------------------------------"
+traceroute slash16.org
+echo

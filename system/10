@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "PARTITION TABLES OF DRIVES:"
+echo "---------------------------"
+sudo fdisk -l
+echo

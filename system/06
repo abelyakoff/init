@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "REBOOTING SSH SERVICE:"
+echo "----------------------"
+sudo systemctl restart ssh
+echo

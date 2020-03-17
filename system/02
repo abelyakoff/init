@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "HOSTNAME:"
+echo "---------"
+hostname
+echo
