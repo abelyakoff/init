@@ -3,5 +3,5 @@
 echo
 echo "DEFAULT GATEWAY IN ROUTING TABLE:"
 echo "---------------------------------"
-netstat -nr | grep default | sed -n '1p'
+netstat -nr | grep default | awk '{if ($6 == "en0") print $2}'
 echo
