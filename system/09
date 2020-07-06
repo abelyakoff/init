@@ -5,3 +5,4 @@ echo "USERS CONNECTED TO SYSTEM:"
 echo "--------------------------"
 w
 echo
+#ss | grep -i ssh

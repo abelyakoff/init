@@ -4,4 +4,5 @@ echo
 echo "SPACE USED AND LEFT:"
 echo "--------------------"
 df -h
+# df -h | grep ^/dev
 echo

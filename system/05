@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo
-echo "CURRENT SSH SERVICE STATE:"
-echo "--------------------------"
+echo "SSH SERVICE STATUS:"
+echo "-------------------"
 sudo systemctl status ssh
 echo

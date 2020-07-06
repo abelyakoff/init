@@ -2,5 +2,7 @@
 
 echo
 echo "SIZE OF FOLDERS IN VAR:"
-du /var/ -h --max-depth=1
+echo "-----------------------"
+sudo du /var/ -h --max-depth=1
+# sudo du /var/ -h
 echo

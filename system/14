@@ -1,0 +1,13 @@
+#!/bin/sh
+
+echo
+echo "RUN TAIL IN BACKGROUND:"
+echo "-----------------------"
+sudo tail -f /var/log/syslog &
+# pgrep tail
+# kill <tail pid>
+# OR
+# pkill tail
+# jobs
+# bg %1 fg %1
+echo

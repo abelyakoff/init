@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "SSH CONNECTION TO VM:"
+echo "---------------------"
+ssh user@127.0.0.1 -p 2222
+echo

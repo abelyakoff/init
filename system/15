@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "KILL TAIL IN BACKGROUND:"
+echo "------------------------"
+sudo kill $(pgrep tail)
+echo
