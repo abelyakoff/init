@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "SERVICES STARTING AT BOOT:"
+echo "--------------------------"
+sudo systemctl list-units --type service
+echo

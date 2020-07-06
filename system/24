@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo
+echo "LIST ALL INSTALLED PACKAGES:"
+echo "----------------------------"
+apt list --installed
+#apt list
+echo

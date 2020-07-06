@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "LISTING ALL REAL USERS:"
+echo "---------------------------"
+getent passwd {1000..60000} | awk -F: '{print $1}'
+echo

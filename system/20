@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "LISTING ALL EXISTING USERS:"
+echo "---------------------------"
+getent passwd | awk -F: '{print $1}'
+echo

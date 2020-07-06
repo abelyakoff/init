@@ -3,7 +3,7 @@
 echo
 echo "KILLING SSH SERVICE:"
 echo "--------------------"
-sudo service ssh stop
-#sudo systemctl stop ssh
+#sudo service ssh stop
+sudo systemctl stop ssh
 #stop -> start
 echo
