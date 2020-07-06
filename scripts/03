@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "CLEAR CACHE:"
+echo "------------"
+rm -rf ~/Library/*42_cache*
+echo

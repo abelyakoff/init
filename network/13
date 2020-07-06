@@ -3,5 +3,5 @@
 echo
 echo "HOST NAME:"
 echo "----------"
-host `ifconfig | grep -w broadcast | cut -d " " -f2` | cut -d" " -f5 | cut -d"." -f1-4
+host $(ifconfig | grep -w broadcast | cut -d " " -f2) | cut -d" " -f5 | cut -d"." -f1-4
 echo

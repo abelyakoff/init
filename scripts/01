@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo
+echo "LOGIN, UID, PATH FROM PASSWD FILE:"
+echo "----------------------------------"
+getent passwd {1000..60000} | awk -F: '{print $1 " | " $3 " | " $6}'
+echo

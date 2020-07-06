@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo
+echo "DELETING USER $1:"
+echo "-----------------"
+pgrep -u $1 | sudo xargs kill -9
+sudo userdel -r $1
+echo

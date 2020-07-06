@@ -3,7 +3,6 @@
 echo
 echo "ADDING NEW USER:"
 echo "----------------"
-sudo useradd new_user
-#sudo passwd new_user // sets password
-#sudo useradd -m new_user // with home directory
+sudo useradd -m new_user
+sudo passwd new_user
 echo
